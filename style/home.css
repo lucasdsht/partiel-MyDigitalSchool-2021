@@ -1,0 +1,86 @@
+.hero-banner article{
+    background-color: #272320;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    height: 600px;
+    width: 550px;
+}
+
+section article div h1{
+    font-size: 70px;
+    color: #BE891E;   
+}
+
+section article div p {
+    text-align: center;
+}
+
+
+.about {
+    flex-direction: row-reverse;
+}
+
+.about article {
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-around;
+    width: 450px;
+    height: 450px;
+    margin-left: 60px;
+}
+
+.about article button {
+    width: 180px;
+}
+
+.about img{
+    width: 550px;
+    height: 550px;
+}
+
+.menu {
+    align-items: center;
+    flex-direction: column;
+}
+
+.menu div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 80%;
+}
+
+.menu article {
+    text-align: center;
+    width: 400px;
+}
+
+section article aside img {
+    width: 400px;
+    height: 400px;
+}
+
+.contact article{
+    background-color: #272320;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    height: 600px;
+    width: 550px;
+}
+
+.contact article ul {
+    display: flex;
+}
+
+.contact article ul li {
+    margin-right: 15px;
+}
+
+.horraire {
+    align-items: center;
+    flex-direction: column;
+}
